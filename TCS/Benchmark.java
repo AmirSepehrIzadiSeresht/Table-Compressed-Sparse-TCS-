@@ -119,7 +119,7 @@ public class Benchmark extends TableCompressedSparse {
 
     private void avlMakeBenchToFile(double time, int nonZero) {
         // File path in current directory
-        String fileName = "C:\\Users\\Sepehr\\Desktop\\TableSparseCompress(TSC)\\ExcelAvlMake.txt";
+        String fileName = "___your path___";
 
         try (
              FileWriter fw = new FileWriter(fileName, true);  // 'true' enables append mode
@@ -144,8 +144,8 @@ public class Benchmark extends TableCompressedSparse {
     private void updateBenchToFile(double median, int putHit, int oprNum) {
 
         // File path in current directory
-        String fileName = "C:\\Users\\Sepehr\\Desktop\\TableSparseCompress(TSC)\\AnalysisUpdateBench.txt";
-        String fileName2 = "C:\\Users\\Sepehr\\Desktop\\TableSparseCompress(TSC)\\ExcelUpdateBench.txt";
+        String fileName = "___your path___";
+        String fileName2 = "___your path___";
 
         try (
              FileWriter fw = new FileWriter(fileName, true);  // 'true' enables append mode
@@ -181,3 +181,4 @@ public class Benchmark extends TableCompressedSparse {
     }
     
 }
+
